@@ -1,7 +1,7 @@
 .dummy_page {
   height: 200px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #EF6C00;
   text-align: center;
   box-sizing: border-box;
   padding: 60px 0px;
@@ -10,7 +10,7 @@
   width: 100%;
   position: relative;
   height: auto;
-  background-color: #ffffff;
+  background-color: #EF6C00;
 }
 .footer .col {
   width: 190px;
@@ -29,7 +29,7 @@
   font-size: 12px;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
-  color: #FF0000;
+  color: #FFFFFF;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -38,10 +38,10 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #EF6C00;
 }
 .footer .col ul li {
-  color: #000000;
+  color: #FFFFFF;
   font-size: 14px;
   font-family: inherit;
   font-weight: bold;

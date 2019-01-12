@@ -1,33 +1,25 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+
+
 
 export class SingleCard extends Component {
   render() {
+    var bg = {
+      background: this.props.background,
+    };
     return (
-        <div class="card col-sm">
-          <img src="/w3images/team2.jpg" alt="John"/>
-          <h1>John Doe</h1>
-          <p class="title">CEO Founder, Example</p>
-          <p>Harvard University</p>
-          <div>
-            <a href="#">
-              <i class="fa fa-dribbble" />
-            </a>
-            <a href="#">
-              <i class="fa fa-twitter" />
-            </a>
-            <a href="#">
-              <i class="fa fa-linkedin" />
-            </a>
-            <a href="#">
-              <i class="fa fa-facebook" />
-            </a>
-          </div>
-          <p>
-            <button>Contact</button>
-          </p>
+      <div class="card" style={bg}>
+        <img class="card-img-top" src={this.props.link} alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">{this.props.title}Card title</h5>
+          <p class="card-text">{this.props.details}</p>
         </div>
-    )
+        <div class="card-footer text-center">
+          <small class="text-white">Demo Footer</small>
+        </div>
+      </div>
+    );
   }
 }
 
-export default SingleCard
+export default SingleCard;
