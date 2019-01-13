@@ -1,0 +1,32 @@
+
+.dotOne {
+  height: 75px;
+  width: 75px;
+  background-color: #23B6C9;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotTwo {
+  height: 75px;
+  width: 75px;
+  background-color: #EBB206;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotThree {
+  height: 75px;
+  width: 75px;
+  background-color: #AB60B8;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotFour {
+  height: 75px;
+  width: 75px;
+  background-color: #23B6C9;
+  border-radius: 50%;
+  display: inline-block;
+}

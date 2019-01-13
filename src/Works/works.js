@@ -7,7 +7,7 @@ import Three from "./three.jpg";
 import Four from "./four.jpg";
 
 var divStyle = {
-  background: "white",
+  background: "lightblue",
   color: "white"
 };
 
@@ -53,40 +53,64 @@ class Works extends React.Component {
   }
 
   render() {
-    return <div className="">
+    return (
+      <div className="container">
         <div className="form-group row" style={divStyle}>
           <div className="col-md-1 text-center justify-content-center align-self-center">
             <div className="pt-4">
-              <button type="button" className="btn-primary btn-lg" onMouseOver={() => this.first()} onClick={() => this.first()}>
+              <button
+                type="button"
+                className="btn-primary btn-lg"
+                onMouseOver={() => this.first()}
+                onClick={() => this.first()}
+              >
                 <i class="fa fa-home" />
               </button>
             </div>
 
             <div className="pt-4">
-              <button type="button" className="btn-primary btn-lg" onMouseOver={() => this.second()} onClick={() => this.second()}>
+              <button
+                type="button"
+                className="btn-primary btn-lg"
+                onMouseOver={() => this.second()}
+                onClick={() => this.second()}
+              >
                 <i class="fa fa-bars" />
               </button>
             </div>
 
             <div className="pt-4">
-              <button type="button" className="btn-primary btn-lg" onMouseOver={() => this.third()} onClick={() => this.third()}>
+              <button
+                type="button"
+                className="btn-primary btn-lg"
+                onMouseOver={() => this.third()}
+                onClick={() => this.third()}
+              >
                 <i class="fa fa-trash" />
               </button>
             </div>
 
             <div className="pt-4">
-              <button type="button" className="btn-primary btn-lg" //   className="btn btn-success"
-                onMouseOver={() => this.fourth()} onClick={() => this.fourth()}>
+              <button
+                type="button"
+                className="btn-primary btn-lg" //   className="btn btn-success"
+                onMouseOver={() => this.fourth()}
+                onClick={() => this.fourth()}
+              >
                 <i class="fa fa-folder" />
               </button>
             </div>
           </div>
 
           <div className="col-md-11">
-            <Workdetails details={this.state.descrioption} imagePath={this.state.images} />
+            <Workdetails
+              details={this.state.descrioption}
+              imagePath={this.state.images}
+            />
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }
 

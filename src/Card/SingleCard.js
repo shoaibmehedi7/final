@@ -6,9 +6,7 @@ export class SingleCard extends Component {
     var bg = {
       background: this.props.background
     };
-    var imgSize = {
-      background: this.props.background
-    };
+
     return (
       <div class="card" style={bg}>
         <div class="card-footer text-center">

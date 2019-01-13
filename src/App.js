@@ -6,6 +6,7 @@ import Works from "./Works/works";
 import Card from "./Card/Card";
 import GettingStarted from "./GettingStarted/GettingStarted";
 import Footer from './Footer/Footer'
+import CardDot from './CardDot/CardDot'
 
 class App extends Component {
   render() {
@@ -13,6 +14,8 @@ class App extends Component {
       <div >
         <Nav />
         <Download />
+        <h1><br/></h1>
+        <CardDot/>
         <h1><br/></h1>
         <Works />
         <br />
