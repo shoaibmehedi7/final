@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./CardDot.css";
 import SingleCard from "../Card/SingleCard";
 var bg = {
-  background: "lightblue"
+  background: "orange",
+  color: "white"
 };
 export class CardDot extends Component {
   constructor(props) {
@@ -56,7 +57,7 @@ export class CardDot extends Component {
   fourth() {
     this.setState({
       ...this.state,
-      background: "23B6C9",
+      background: "#23B6C9",
       title: "Where can I get some?",
       link:
         "//www.gstatic.com/mobilesdk/160505_mobilesdk/discoverycards/2x/storage.png",
@@ -65,47 +66,27 @@ export class CardDot extends Component {
     });
   }
   render() {
-    return (
-      <div className="container text-center" style={bg}>
-        <h1>Changeable CardView</h1>
-        <br />
-        <br />
-        <div className="form-group row">
-          <div className="col-md-1" />
-          <div className="col-md-1 justify-content-center align-self-center">
-            <span
-              class="dot dotOne"
-              onMouseOver={() => this.first()}
-              onClick={() => this.first()}
-            />
-            <span
-              class="dot dotTwo"
-              onMouseOver={() => this.second()}
-              onClick={() => this.second()}
-            />
-            <span
-              class="dot dotThree"
-              onMouseOver={() => this.third()}
-              onClick={() => this.third()}
-            />
-            <span
-              class="dot dotFour"
-              onMouseOver={() => this.fourth()}
-              onClick={() => this.fourth()}
-            />
-          </div>
-          <div className="col-md-2" />
-          <div className="col-md-7">
-            <SingleCard
-              background={this.state.background}
-              details={this.state.details}
-              link={this.state.link}
-              title={this.state.title}
-            />
+    return <div style={bg}>
+        <div className="container text-center">
+          <br />
+          <h1>Changeable CardView</h1>
+          <br />
+          <div className="form-group row">
+            <div className="col-md-1" />
+            <div className="col-md-1 justify-content-center align-self-center">
+              <span class="dot dotOne" onMouseOver={() => this.first()} onClick={() => this.first()} />
+              <span class="dot dotTwo" onMouseOver={() => this.second()} onClick={() => this.second()} />
+              <span class="dot dotThree" onMouseOver={() => this.third()} onClick={() => this.third()} />
+              <span class="dot dotFour" onMouseOver={() => this.fourth()} onClick={() => this.fourth()} />
+            </div>
+            <div className="col-md-2" />
+            <div className="col-md-7">
+              <SingleCard background={this.state.background} details={this.state.details} link={this.state.link} title={this.state.title} />
+              <br />
+            </div>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

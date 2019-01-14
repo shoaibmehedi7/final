@@ -9,20 +9,20 @@ import Footer from "./Footer/Footer";
 import CardDot from "./CardDot/CardDot";
 import Form from "./Form/Form";
 
+var bg = {
+  background: "#E3E3E3"
+};
+
 class App extends Component {
   render() {
-    return <div>
+    return <div style={bg}>
         <Nav />
         <Download />
         <h1>
           <br />
         </h1>
         <CardDot />
-        <h1>
-          <br />
-        </h1>
         <Works />
-        <br />
         <Card />
         <br />
         <GettingStarted />
