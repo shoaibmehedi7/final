@@ -1,54 +1,39 @@
-import React, { Component } from 'react'
-import './Footer.css'
+import React, { Component } from "react";
+import "./Footer.css";
 
 export class Footer extends Component {
   render() {
-    return (
+    return <div class="footer">
+        <div class="row text-center">
+          <div class="col mt-4">
+          <h5 class="font-weight-bold text-uppercase mb-4">
+            Company Details
+                </h5>
 
-      <div class="footer">
-        <div class="contain">
-          <div class="col">
-            <h1>Company</h1>
-            <ul>
-              <li>About</li>
-              <li>Mission</li>
-              <li>Services</li>
-              <li>Social</li>
-              <li>Get in touch</li>
-            </ul>
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fa fa-home mr-3" /> New York, NY 10012, US
+                    </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa fa-envelope mr-3" /> info@example.com
+                    </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa fa-phone mr-3" /> + 01 234 567 88
+                    </p>
+            </li>
+            <li>
+              <p>
+                <i class="fa fa-print mr-3" /> + 01 234 567 89
+                    </p>
+            </li>
+          </ul>
           </div>
-          <div class="col">
-            <h1>Products</h1>
-            <ul>
-              <li>About</li>
-              <li>Mission</li>
-              <li>Services</li>
-              <li>Social</li>
-              <li>Get in touch</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Accounts</h1>
-            <ul>
-              <li>About</li>
-              <li>Mission</li>
-              <li>Services</li>
-              <li>Social</li>
-              <li>Get in touch</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Resources</h1>
-            <ul>
-              <li>Webmail</li>
-              <li>Redeem code</li>
-              <li>WHOIS lookup</li>
-              <li>Site map</li>
-              <li>Web templates</li>
-              <li>Email templates</li>
-            </ul>
-          </div>
-          <div class="col">
+        <div class="col mt-4">
             <h1>Support</h1>
             <ul>
               <li>Contact us</li>
@@ -56,20 +41,18 @@ export class Footer extends Component {
               <li>Open ticket</li>
             </ul>
           </div>
-          <div class="col social">
+        <div class="col social mt-4">
             <h1>Social</h1>
             <ul>
               <li>S</li>
-                <li>A</li>
-                  <li>C</li>
-    </ul>
-  </div>
-                <div class="clearfix"></div>
-</div>
-</div>
+              <li>A</li>
+              <li>C</li>
+            </ul>
+          </div>
+          <div class="clearfix" />
+        </div>
+      </div>;
+  }
+}
 
-            )
-          }
-        }
-        
-        export default Footer;
+export default Footer;

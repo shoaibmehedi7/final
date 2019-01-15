@@ -1,8 +1,20 @@
-.form-control-lg{
+.form-control-lg {
   border-radius: 25px;
 }
 
-input[type=text]:focus{
+input[type="text"]:focus {
   border-radius: 25px;
-  border-color: #EF6C00;
+  border-color: #ef6c00;
+}
+
+#submitButton:hover {
+  color: #ffffff;
+  cursor: alias;
+  background: #ef6c00;
+}
+.form-control-lg:hover {
+  border-color: #ef6c00;
+  color: #ef6c00;
+  border-style: solid;
+  border-width: medium;
 }

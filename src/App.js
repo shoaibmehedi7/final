@@ -5,7 +5,7 @@ import Download from "./Download/Dow";
 import Works from "./Works/works";
 import Card from "./Card/Card";
 import GettingStarted from "./GettingStarted/GettingStarted";
-import Footer from "./Footer/Footer";
+import Footer from "./Footernew/Footer";
 import CardDot from "./CardDot/CardDot";
 import Form from "./form/Form";
 
@@ -31,5 +31,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
