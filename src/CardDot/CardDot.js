@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./CardDot.css";
 import SingleCard from "../Card/SingleCard";
 var bg = {
-  background: "orange",
-  color: "white"
+  background: "#FFFFFF",
+  color: "lightblue"
 };
 export class CardDot extends Component {
   constructor(props) {
@@ -66,27 +66,50 @@ export class CardDot extends Component {
     });
   }
   render() {
-    return <div style={bg}>
+    return (
+      <div style={bg}>
         <div className="container text-center">
           <br />
-          <h1>Changeable CardView</h1>
+          <h2>Features</h2>
           <br />
           <div className="form-group row">
             <div className="col-md-1" />
             <div className="col-md-1 justify-content-center align-self-center">
-              <span class="dot dotOne" onMouseOver={() => this.first()} onClick={() => this.first()} />
-              <span class="dot dotTwo" onMouseOver={() => this.second()} onClick={() => this.second()} />
-              <span class="dot dotThree" onMouseOver={() => this.third()} onClick={() => this.third()} />
-              <span class="dot dotFour" onMouseOver={() => this.fourth()} onClick={() => this.fourth()} />
+              <span
+                class="dot dotOne"
+                onMouseOver={() => this.first()}
+                onClick={() => this.first()}
+              />
+              <span
+                class="dot dotTwo"
+                onMouseOver={() => this.second()}
+                onClick={() => this.second()}
+              />
+              <span
+                class="dot dotThree"
+                onMouseOver={() => this.third()}
+                onClick={() => this.third()}
+              />
+              <span
+                class="dot dotFour"
+                onMouseOver={() => this.fourth()}
+                onClick={() => this.fourth()}
+              />
             </div>
             <div className="col-md-2" />
             <div className="col-md-7">
-              <SingleCard background={this.state.background} details={this.state.details} link={this.state.link} title={this.state.title} />
+              <SingleCard
+                background={this.state.background}
+                details={this.state.details}
+                link={this.state.link}
+                title={this.state.title}
+              />
               <br />
             </div>
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }
 

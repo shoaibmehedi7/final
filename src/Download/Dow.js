@@ -10,7 +10,7 @@ export class Dow extends Component {
         <div class="container">
           <div class="row">
             <div class="col-sm">
-              <h1>Get the best of Tonic in one App!</h1>
+              <h1>Get the best of Security in one App!</h1>
               <p>
                 Have a health need? Tonic brings you 21st century care to your
                 fingertips.

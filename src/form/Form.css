@@ -1,0 +1,8 @@
+.form-control-lg{
+  border-radius: 25px;
+}
+
+input[type=text]:focus{
+  border-radius: 25px;
+  border-color: #EF6C00;
+}

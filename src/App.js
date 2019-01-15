@@ -7,30 +7,28 @@ import Card from "./Card/Card";
 import GettingStarted from "./GettingStarted/GettingStarted";
 import Footer from "./Footer/Footer";
 import CardDot from "./CardDot/CardDot";
-import Form from "./Form/Form";
+import Form from "./form/Form";
 
 var bg = {
-  background: "#E3E3E3"
+  background: "#FFFFFF"
 };
-
 class App extends Component {
   render() {
-    return <div style={bg}>
+    return (
+      <div style={bg}>
         <Nav />
         <Download />
-        <h1>
-          <br />
-        </h1>
         <CardDot />
-        <Works />
+        {/* <Works /> */}
         <Card />
         <br />
         <GettingStarted />
         <br />
-        <Form/>
+        <Form />
         <br />
         <Footer />
-      </div>;
+      </div>
+    );
   }
 }
 
