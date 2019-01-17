@@ -8,6 +8,7 @@ import GettingStarted from "./GettingStarted/GettingStarted";
 import Footer from "./Footernew/Footer";
 import CardDot from "./CardDot/CardDot";
 import Form from "./form/Form";
+import Map from "./Map/map"
 
 var bg = {
   background: "#FFFFFF"
@@ -27,6 +28,7 @@ class App extends Component {
         <Form />
         <br />
         <Footer />
+        <Map/>
       </div>
     );
   }

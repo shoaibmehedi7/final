@@ -1,0 +1,29 @@
+.footer-action-btn {
+  bottom: 0;
+  color: #fff;
+  font-weight: 900;
+  font-size: 0.875em;
+  line-height: 1.929em;
+  background-color: #f0002f;
+  display: inline-block;
+  padding: 1.214em 3.746em;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.footer-action-btn:hover {
+  color: #fff;
+}
+
+#footer-map-collapse {
+  display: none;
+}
+
+.iframe {
+  border: 2px solid red;
+  border-radius: 25px;
+}
+.map {
+  background: #008b8b;
+  align-content: center;
+  text-align: center;
+}
