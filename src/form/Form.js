@@ -61,13 +61,14 @@ export class Formm extends Component {
          };
          render() {
            return <div className="App">
-               <form onSubmit={this.onSubmit}>
-                 <input className="form-control-lg" type="text" name="fname" placeholder="Name" value={this.state.name} onChange={this.nameChange} />
-                 <input className="form-control-lg" type="text" name="fname" placeholder="Mobile No" value={this.state.phone} onChange={this.phoneChange} />
+            <h3 class="text-center damn1">Request For Call</h3>
+               <form class="form damn" onSubmit={this.onSubmit}>
+                 <input className="form-control-lg rounded" type="text" name="fname" placeholder="Name" value={this.state.name} onChange={this.nameChange} />
+               <input className="form-control-lg rounded" type="text" name="fname" placeholder="Mobile No" value={this.state.phone} onChange={this.phoneChange} />
                  <br />
-                 <input className="form-control-lg" type="text" name="fname" placeholder="Address" value={this.state.address} onChange={this.addressChange} />
+               <input className="form-control-lg rounded" type="text" name="fname" placeholder="Address" value={this.state.address} onChange={this.addressChange} />
                  <br />
-                 <input className="form-control-lg" id="submitButton" type="submit" value="Submit" />
+               <input className="form-control-lg rounded" id="submitButton" type="submit" value="Submit" />
                </form>
              </div>;
          }

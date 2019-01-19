@@ -1,10 +1,37 @@
+.damn1 {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+.damn {
+  width: 65%;
+  margin-left: 18%;
+  padding-bottom: 5%;
+  /*background-image: url('water.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+.damn input {
+  border: 1px #333;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  width: 40%;
+}
+
 .form-control-lg {
   border-radius: 25px;
 }
 
 input[type="text"]:focus {
-  border-radius: 25px;
   border-color: #ef6c00;
+}
+
+#submitButton {
+  background: #ef6c00;
+  color: #ffffff;
 }
 
 #submitButton:hover {

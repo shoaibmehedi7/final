@@ -1,5 +1,6 @@
 import React from "react";
 import "./workdetails.css";
+import ReactWOW from "react-wow";
 
 class Workdetails extends React.Component {
   render() {
@@ -7,13 +8,13 @@ class Workdetails extends React.Component {
     let output = require("./one.jpg");
     output = (
       <div className="row">
-        <div className="work-details col-md-4 col-sm justify-content-center align-self-center">
+        <div className="work-details col-md-4 col-sm justify-content-center fadeIn align-self-center">
           <p className="h2 text-muted">
             {this.props.details} This is Fixed This is Fixed This is Fixed This
             is Fixed This is Fixed
           </p>
         </div>
-        <div className="work-img col-sm">
+        <div className="work-img col-sm" animation="slideUp">
           {/* <h1>{this.props.imagePath}</h1> */}
           <img src={this.props.imagePath} alt={this.props.imagePath} />
         </div>

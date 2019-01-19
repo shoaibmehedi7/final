@@ -1,0 +1,45 @@
+.app-benefits {
+  content: "•";
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 20px;
+  color: #333;
+  left: 0;
+  top: 1px;
+}
+
+.home-content {
+  width: 40%;
+}
+
+.home-content p {
+  font-size: 18px;
+  margin-left: 1%;
+}
+
+.home-content a .im2 {
+  margin-left: 3%;
+}
+
+.home-content a img {
+  width: 171.6px;
+  height: 51px;
+  margin-top: 3%;
+}
+.image {
+  width: 59%;
+  padding-left: 7%;
+}
+
+@media screen and (max-width: 800px) {
+  .home-content {
+    margin-left: 0ch;
+    width: 100%;
+    text-align: center;
+    padding-left: 0ch;
+    padding: 0ch;
+    margin:0ch;
+    object-position: 0cm;
+
+  }
+}

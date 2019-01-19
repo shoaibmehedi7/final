@@ -9,6 +9,7 @@ import Footer from "./Footernew/Footer";
 import CardDot from "./CardDot/CardDot";
 import Form from "./form/Form";
 import Map from "./Map/map"
+import ScrollSlide from "./Scroll/Scroll";
 
 var bg = {
   background: "#FFFFFF"
@@ -20,7 +21,7 @@ class App extends Component {
         <Nav />
         <Download />
         <CardDot />
-        {/* <Works /> */}
+        <ScrollSlide />
         <Card />
         <br />
         <GettingStarted />

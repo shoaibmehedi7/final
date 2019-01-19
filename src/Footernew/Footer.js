@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./Footer.css";
+import Map from '../Map/map';
 
 export class Footer extends Component {
+
   render() {
     return <div class="footer">
         <footer class="page-footer font-small cyan darken-3 pt-4 white-text">
@@ -83,6 +85,8 @@ export class Footer extends Component {
         </footer>
 
         <div class="clearfix" />
+        {/* <Map/> */}
+
       </div>;
   }
 }

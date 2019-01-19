@@ -1,0 +1,45 @@
+#test {
+  overflow-x: hidden;
+}
+.img-fluid {
+  display: block;
+}
+
+.owl img {
+  padding-left: 5%;
+  max-width: 100%;
+  /* max-height: 30%; */
+}
+.owl {
+  width: 150%;
+  margin-left: -25%;
+  align-content: center;
+}
+
+@media (max-width: 768px) {
+  .owl img {
+    height: 170px;
+  }
+}
+/* 
+* {
+  overflow-x: hidden;
+}
+.img-fluid {
+  display: block;
+}
+
+.owl img {
+  padding-left: 5%;
+  max-width: 100%;
+  padding-bottom: 0;
+}
+
+.owl {
+  width: 150%;
+  margin-left: -30%;
+  align-content: center;
+}
+.owl-stage-outer {
+  max-height: 750px;
+} */

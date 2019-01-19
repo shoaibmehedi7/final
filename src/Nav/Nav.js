@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "react-sticky-header/styles.css";
 import StickyHeader from "react-sticky-header";
+import "./Nav.css";
 
 export default class Nav extends Component {
   render() {
@@ -12,7 +13,7 @@ export default class Nav extends Component {
             header={
               <div className="Header_root">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <a class="navbar-brand" href="#">
+                  <a class="navbar-brand p-3 mt-3" href="#">
                     Rokkhi
                   </a>
                   <button
@@ -56,13 +57,16 @@ export default class Nav extends Component {
                     <form class="form-inline my-2 my-lg-0">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                          <a class="nav-link btn-warning" href="#">
+                          <a
+                            class="nav-link btn-danger text-white rounded"
+                            href="#"
+                          >
                             Callback
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">
-                            <i class="fas fa-phone"> 01686038953</i>
+                            <i class="fa fa-phone"> 01686038953</i>
                           </a>
                         </li>
                       </ul>

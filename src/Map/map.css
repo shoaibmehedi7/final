@@ -27,3 +27,6 @@
   align-content: center;
   text-align: center;
 }
+.mapDiv {
+  max-height: 100%;
+}

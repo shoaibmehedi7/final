@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./CardDot.css";
 import SingleCard from "../Card/SingleCard";
 var bg = {
-  background: "#FFFFFF",
-  color: "lightblue"
+  // background: "#FFFFFF",
+  // color: "lightblue"
 };
 export class CardDot extends Component {
   constructor(props) {
