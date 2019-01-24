@@ -33,13 +33,11 @@
 
 @media screen and (max-width: 800px) {
   .home-content {
-    margin-left: 0ch;
+    margin-left: -15%;
     width: 100%;
     text-align: center;
     padding-left: 0ch;
     padding: 0ch;
     margin:0ch;
-    object-position: 0cm;
-
   }
 }

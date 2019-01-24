@@ -9,13 +9,15 @@ export default class Nav extends Component {
       <div>
         <div className="App">
           <StickyHeader
-            // This is the sticky part of the header.
             header={
               <div className="Header_root">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                   <a class="navbar-brand p-3 mt-3" href="#">
                     Rokkhi
                   </a>
+                  {/* <a href="tel:01686038953" id="callforphone">
+                    <i class="fa fa-phone"> </i>
+                  </a> */}
                   <button
                     class="navbar-toggler"
                     type="button"
@@ -65,7 +67,7 @@ export default class Nav extends Component {
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">
+                          <a href="tel:01686038953" class="nav-link">
                             <i class="fa fa-phone"> 01686038953</i>
                           </a>
                         </li>

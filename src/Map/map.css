@@ -4,7 +4,7 @@
   font-weight: 900;
   font-size: 0.875em;
   line-height: 1.929em;
-  background-color: #f0002f;
+  background-color: #FF3300;
   display: inline-block;
   padding: 1.214em 3.746em;
   border-top-left-radius: 18px;
@@ -23,7 +23,7 @@
   border-radius: 25px;
 }
 .map {
-  background: #008b8b;
+  background: #F8F9FA;
   align-content: center;
   text-align: center;
 }

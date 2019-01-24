@@ -26,22 +26,34 @@
 }
 
 input[type="text"]:focus {
-  border-color: #ef6c00;
+  border-color: #ff3300;
 }
 
 #submitButton {
-  background: #ef6c00;
+  background: #ff3300;
   color: #ffffff;
 }
 
 #submitButton:hover {
   color: #ffffff;
   cursor: alias;
-  background: #ef6c00;
+  background: #ff3300;
 }
 .form-control-lg:hover {
-  border-color: #ef6c00;
-  color: #ef6c00;
+  border-color: #ff3300;
+  color: #ff3300;
   border-style: solid;
   border-width: medium;
+}
+
+@media screen and (max-width: 800px) {
+  .form-control-lg,
+  .damn input,
+  .damn {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
 }

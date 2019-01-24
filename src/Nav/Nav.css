@@ -32,3 +32,11 @@ nav #navbarSupportedContent form ul {
     height: 0ch;
   }
 }
+
+.btn-danger{
+  background: #FF3300;
+}
+#callforphone{
+  margin-right: 0cm;
+  color: #FF3300;
+}
